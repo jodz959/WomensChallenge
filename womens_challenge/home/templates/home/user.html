@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
+<{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 <title>Title</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- Optional Bootstrap theme -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+    <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
 
 <body>
 
@@ -51,7 +51,7 @@
     <div class="col-9">
 
   <!-- <div class="container_out">   -->
- 
+
  <!-- <div class="container_out_col_1"> -->
 
 <!-- Mentor information -->
@@ -62,11 +62,11 @@
 
 <div class="profile_picture">
 <div class="profile_picture_img">
-<img src="img/profile_picture.jpg" />
+<img src="{% static 'img/profile_picture.jpg %}" />
 
 <p class="mentor_name">
 	Kylie Jenner
-</p> 
+</p>
 </div>
 </div>
 
@@ -75,7 +75,7 @@
 <div class="mentor_info_occu">Manager</div>
 <div class="mentor_info_desc">
 
-Lorem ipsum dolor sit amet, ei usu iusto epicuri, possit quodsi accommodare id vel. Vim suas concludaturque an, ex ignota comprehensam concludaturque vix. 
+Lorem ipsum dolor sit amet, ei usu iusto epicuri, possit quodsi accommodare id vel. Vim suas concludaturque an, ex ignota comprehensam concludaturque vix.
 Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing ne sea. Pro id laoreet civibus phaedrum.
 
 Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing ne sea. Pro id laoreet civibus phaedrum.
@@ -140,13 +140,13 @@ Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing
 
     <div class="col-3">
 
-  <div class="container_side"> 
-<div class="div_title_b">Interests</div>  
+  <div class="container_side">
+<div class="div_title_b">Interests</div>
 	<a href="opportunities.html"> Guide to venture capitalists </a>
 	<br />
 	<a href="opportunities.html"> Guide to loans </a>
- </div> 
- 
+ </div>
+
 </div>
 </div>
 
@@ -161,7 +161,7 @@ Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing
 
 <div class="col-3">
 <!-- Finding upcoming -->
-<div class="div_title_b">Upcomings</div>  
+<div class="div_title_b">Upcomings</div>
 	<a href="opportunities.html"> Workshops </a>
 <!-- Finding upcoming -->
 </div>
@@ -180,6 +180,4 @@ Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing
 
 
 </body>
-
-
-</html>
+{% endblock %}
