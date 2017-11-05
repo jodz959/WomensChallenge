@@ -1,8 +1,7 @@
-.body {
+/*.body {
 	background-color:#fcfcfc;
 	color: #545454;
-}
-
+}*/
 
 .container {
 	color:#545454;
@@ -22,7 +21,7 @@
 .container_side {
 	color:#blue;
 	padding: 25px 5px 5px 5px;
-	
+
 }
 
 
@@ -49,7 +48,7 @@
 
 .footer {
 	margin-top: 55px;
-	width: 100%;	
+	width: 100%;
 	padding-top:10px;
 	padding-bottom: 60px;
 	background-color: #f5f5f5;
@@ -131,5 +130,8 @@ ul.bullet_circle {
 
 
 /* End metor's information */
+@media (min-width: 768px){
 
-
+.navbar-collapse.collapse {
+     display: none !important;
+	 }}

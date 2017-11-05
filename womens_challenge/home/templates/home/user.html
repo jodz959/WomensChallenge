@@ -1,5 +1,8 @@
-<{% extends 'base.html' %}
+{% extends 'base.html' %}
 {% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+
 {% block content %}
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +12,13 @@
 	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- Optional Bootstrap theme -->
     <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
-	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
 
 
 <body>
 
 <!-- Navigation bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
     <span class="navbar-toggler-icon"></span>
@@ -41,7 +44,7 @@
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav>
+</nav> -->
 
 <!-- End navigation bar -->
 
@@ -62,7 +65,7 @@
 
 <div class="profile_picture">
 <div class="profile_picture_img">
-<img src="{% static 'img/profile_picture.jpg %}" />
+<img src="{% static 'images/profile_picture.jpg' %}" />
 
 <p class="mentor_name">
 	Kylie Jenner
@@ -173,7 +176,7 @@ Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing
 
 <div class="footer">
 <div class="footer-inner">
-</p>2017<p>
+<!-- </p>2017<p> -->
 </div>
 </div>
 
