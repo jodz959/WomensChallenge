@@ -16,4 +16,12 @@
       }
       document.getElementById(tabName).style.display = "block";
       evt.currentTarget.className += " active";
+      scroll(tabName);
   }
+function scroll(tabName) {
+  $("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("tabName").offset().top},
+        'slow');
+  });
+}
