@@ -1,0 +1,12 @@
+{% extends 'home/base.html' %}
+{% load staticfiles %}
+{% load comments %}
+
+{% block content %}
+
+{% get_comment_count for group as comment_count %}
+{% for comment in comment_list %}
+    <p>{{ comment }}</p>
+{% endfor %}
+
+{% endblock %}
