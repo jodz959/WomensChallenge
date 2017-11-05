@@ -1,0 +1,162 @@
+.textopp{
+  height:78vh;
+}
+#workshops{
+  height:100vh;
+}
+.guidesmenu{
+  height: 80vh;
+}
+.guides{
+  background: url("../images/guide.jpg") no-repeat center center fixed;
+  height:76%;
+
+}
+
+.row.step #research{
+  height: 100vh;
+}
+#vc{
+  background-color: white;
+  height: 100vh;
+  width: 86vw;
+
+}
+#facilities{
+  height:100vh;
+}
+.step h3, p{
+  text-align: center;
+}
+
+.study{
+  width:86vw;
+  height:60vh;
+  background-image: url("../images/image.jpeg");
+  background-size: 100%;
+  background: url("../images/study.jpg") no-repeat center center fixed;
+}
+.fillerim{
+  width: 100vw;
+  height:60vh;
+  background-image: url("../images/58.jpg");
+  background-size: 100%;
+  background-clip: fixed;
+}
+
+.back{
+  width:86vw;
+  height:60vh;
+  background-image: url("../images/image.jpeg");
+  background-size: 100%;
+  background: url("../images/working.jpg") no-repeat center  fixed;
+}
+
+.back h1{
+  top:20vh;
+}
+
+.study h1{
+  top:20vh;
+}
+.title{
+  position: absolute;
+  height: 400px;
+  top: 20vh;
+  left: 35vw;
+}
+.dropdown-menu{
+  position: absolute;
+  font-size: 16px;
+  left: -66px;
+  top:-51px;
+  font-size: 14px;
+  min-width: 60px;
+  padding-left: 5px;
+  }
+.togglemenu, .guidesmenu{
+  text-align: center;
+}
+.tabcontent {
+    display: none;
+}
+.guidecontent{
+  display: none;
+}
+
+.opp{
+  height: 100vh;
+}
+
+html{
+    min-height:100%;
+    position:relative;
+    overflow-x: hidden;
+}
+body{
+    height:100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+text-align: center;
+margin-top: 3vh;
+  }
+.front, .step{
+  height:100vh;
+  overflow-y:0;
+  text-align: center;
+    margin-top: 500px;
+}
+
+
+
+
+.col-sm{
+  width:30vw;
+  height: 35vh;
+  margin: 4px;
+  border-radius: 10px;
+  background: yellow;
+  border: white;
+  border-width: thick;
+}
+.inside{
+      margin-top: 10vh;
+}
+
+/*.one{
+  background-color: #C0FF7F;
+}
+.two{
+  background: #FD5C53;
+}
+.three{
+  background-color: #673EFF;
+}
+.four{
+  background-color: #FFEE57;
+}*/
+.front{
+  margin-top: 10vh;
+}
+
+a{
+  text-decoration: none;
+  color:#212529;
+}
+a:hover, a:visited{
+  text-decoration: none;
+}
+.step h3, p{
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+.icon{
+  width:20vw;
+}
+.point{
+  width:100vw;
+}
