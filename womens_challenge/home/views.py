@@ -5,5 +5,10 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'home/index.html')
 
+
 def groups(request):
     return render(request, 'home/groups.html')
+
+def opportunities(request):
+    return render(request, 'home/opportunities.html')
+
