@@ -18,13 +18,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/home/">Leveraging the First Steps</a>
+        <a class="navbar-brand" href="{% url 'home:index' %}">Leveraging the First Steps</a>
       </div>
 
       <nav class="navbar-collapse collapse" role="navigation">
         <ul class="nav navbar-nav">
         <!--  <li class="active"><a href="#">Upload <span class="sr-only">(current)</span></a></li> -->
-          <li><a href="">About</a></li>
+          <li><a href="{% url 'home:group' %}">Groups</a></li>
           <li><a href="">Local SBA</a></li>
             <li><a href="">Guides and Opportunities</a></li>
         </ul>
