@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-<title>Title</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <!-- Optional Bootstrap theme -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 <body>
 
@@ -120,7 +113,6 @@ Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing
 
 </td>
 </tr>
-
 </table>
 <!-- End Mentor experiences -->
 
@@ -134,5 +126,4 @@ Sit electram contentiones id. Mei no volumus deleniti, vocent ornatus adipiscing
 
 </body>
 
-
-</html>
+{% endblock %}
