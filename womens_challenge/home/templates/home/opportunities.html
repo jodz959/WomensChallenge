@@ -1,24 +1,23 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head> -->
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/about.css' %}">
   <title>Opportunities</title>
 <!-- </head> -->
 <body>
-
   <div class="header"></div>
     <!-- OPPORTUNITIES TOP PAGE -->
     <div class="opp">
       <div class="textopp">
-      <h1>Opportunities</h1>
+        <div class="fillerim">
+          <div class="title">
+            <h1>Guides and Opportunities</h1>
+          </div>
+        </div>
       <p>
         We are very delighted to share these opportunities with you! Please use these resourses for your advantage!
       </p>
@@ -32,8 +31,18 @@
         <label class="btn btn-primary tablink" onclick="openTab(event, 'workshops', false)">
           <input type="radio" name="options" id="option2"> Workshops
         </label>
-        <label class="btn btn-primary tablink" onclick="openTab(event, 'guides', false)">
+        <!-- <label class="btn btn-primary tablink" onclick="openTab(event, 'guides', false)">
           <input type="radio" name="options" id="option3"> Guides
+        </label> -->
+        <label class="btn btn-primary tablink" role="group" onclick="openTab(event, 'guides', false)">
+            <input type="radio" name="options" id="option3"> Guides
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Venture Capital</a><br>
+                <a class="dropdown-item" href="#">Business Loans</a>
+              </div>
+            </div>
         </label>
       </div>
     </div>
@@ -44,13 +53,17 @@
 <div class="container">
   <!-- FACILITIES PAGE -->
   <div class="tabcontent" id="facilities">
-    <h1>Facilities</h1>
+    <div class="back">
+      <h1>Facilities</h1>
+    </div>
   </div>
   <!-- FACILITIES PAGE END -->
 
   <!-- WORKSHOPS PAGE -->
   <div class="tabcontent" id="workshops">
+    <div class="study">
     <h1>Workshops</h1>
+    </div>
   </div>
   <!-- WORKSHOPS PAGE END -->
 </div>
@@ -62,6 +75,7 @@
 
     <!-- MENU FOR GUIDES -->
     <div class="guidesmenu">
+      <div class="guides"></div>
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary guidelink" onclick="openTab(event, 'vc', true)">
           <input type="radio" name="options" id="option1" checked=""> Venture Capital
@@ -211,10 +225,6 @@
 <!-- GUIDES END -->
 
   <script src="{% static 'js/script.js' %}"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/5276110f7f.js"></script>
 </body>
 {% endblock %}
-<!-- </html> -->
