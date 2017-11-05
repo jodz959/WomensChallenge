@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/groups.css' %}">
+<body>
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <h2 align="center">Groups</h2>
+<div align="center"> <img class="onca" align="middle" src="{% static 'images/group.png' %}"> </div>
+  </div>
+  <div class="col-sm-4"></div>
+</div>
+
+<div class="tiles">
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card text-white bg-primary">
+  <div class="card-body">
+    <blockquote class="card-blockquote">
+      <p>Seeking Venture Capitalists</p>
+      <footer>Last Updated <cite title="Source Title">11 mins ago</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<div class="card text-white bg-success">
+  <div class="card-body">
+    <blockquote class="card-blockquote">
+      <p>Expansion Opportunities</p>
+      <footer>Last Updated <cite title="Source Title">20 mins ago</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<div class="card text-white bg-info">
+  <div class="card-body">
+    <blockquote class="card-blockquote">
+      <p>Partnerships</p>
+      <footer>Last Updated<cite title="Source Title">2 days ago</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<div class="card text-white bg-warning">
+  <div class="card-body">
+    <blockquote class="card-blockquote">
+      <p>Local government</p>
+      <footer>Last Updated <cite title="Source Title">2 weeks ago</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<div class="card text-black bg-primary">
+  <div class="card-body">
+    <blockquote class="card-blockquote">
+      <p>E-marketing</p>
+      <footer>Last Updated <cite title="Source Title">5 minutes ago</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<div class="card text-white bg-danger">
+  <div class="card-body">
+    <blockquote class="card-blockquote">
+      <p>Import-Export Market</p>
+      <footer>Last Updated <cite title="Source Title">Jan 1</cite></footer>
+    </blockquote>
+  </div>
+</div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card text-white bg-primary">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <p>Home Business</p>
+          <footer>Last Updated<cite title="Source Title">1 hour ago</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <div class="card text-white bg-success">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <p>Veterans</p>
+          <footer>Last Updated<cite title="Source Title">6 weeks ago</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <div class="card text-white bg-info">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <p>Saving</p>
+          <footer>Last Updated<cite title="Source Title">1 week ago</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card text-white bg-primary">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <p>Maintaining a blog</p>
+          <footer>Last Updated <cite title="Source Title">2 months ago</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <div class="card text-white bg-success">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <p>Exit Strategies</p>
+          <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <div class="card text-white bg-info">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+        <a> <p>Hiring Tips</p> <a>
+          <footer>Last Updated <cite title="Source Title">3 days ago</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <div class="card text-white bg-danger">
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <p>Emergency</p>
+          <footer>Last Updated <cite title="Source Title">6 months ago</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+{% endblock %}
