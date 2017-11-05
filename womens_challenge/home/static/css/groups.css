@@ -2,7 +2,9 @@ body {
   margin-top: 45px;
   overflow-x: hidden;
 }
-
+blockquote p{
+  color:#382f2f;
+}
 .onca {
   width:200px;
   height:auto;
@@ -22,3 +24,10 @@ body {
   padding:10px;
   margin-top: 30px;
 }
+
+footer{
+  color:#73c3c;
+}
+
+.bg-primary.card-body.card-blockquote{
+background-color:#3cb5dd;}

@@ -160,3 +160,14 @@ a:hover, a:visited{
 .point{
   width:100vw;
 }
+
+.back h1{
+  color: #E99002;
+  font-weight: 400;
+}
+.study h1{
+
+    color: #E99002;
+    font-weight: 400;
+
+}

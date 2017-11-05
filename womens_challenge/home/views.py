@@ -12,3 +12,8 @@ def groups(request):
 def opportunities(request):
     return render(request, 'home/opportunities.html')
 
+def user(request):
+    return render(request, 'home/user.html')
+
+def mentor(request):
+    return render(request, 'home/mentor.html')
