@@ -141,14 +141,20 @@ margin-top: 3vh;
 }*/
 .front{
   margin-top: 10vh;
+  background-color: white;
 }
-
+.guidecontent{
+  background-color: white;
+}
 a{
   text-decoration: none;
   color:#212529;
 }
 a:hover, a:visited{
   text-decoration: none;
+}
+div#vc{
+  overflow-x: hidden;
 }
 .step h3, p{
   margin-top: 5vh;

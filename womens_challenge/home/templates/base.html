@@ -29,7 +29,9 @@
             <li><a href="{% url 'home:opportunities' %}">Guides and Opportunities</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Account</a></li>
+          <li><a href="{% url 'home:user' %}">Account</a></li>
+          <li>
+          <a href="{% url 'home:mentor' %}">Mentor</a></li>
         </ul>
       </nav>
     </div>
