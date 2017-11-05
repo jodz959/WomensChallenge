@@ -1,6 +1,6 @@
 ## Women's Challenge
 
-# **Leveraging the First Steps**
+# **Levereaging the First Steps**
 
 ### *What is it?* 
 ![Image of home_1](https://github.com/jodz959/WomensChallenge/blob/master/home_1.JPG) 
